@@ -1,0 +1,16 @@
+# Training logs and checkpoints stay in unitree_rl_mjlab/logs; scripts/import_run.sh copies
+# only what is needed (policy, last checkpoint, configuration) into this repo.
+logs/
+wandb/
+*.tfevents.*
+# Builds and caches
+build/
+__pycache__/
+*.pyc
+.venv/
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+# Personal notes: lab notebook, git notes, the word list of scripts/check_public.sh
+notes/
